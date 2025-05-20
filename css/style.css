@@ -1,0 +1,27 @@
+:root{
+    --bleu: #32597A;
+    --white: #eaeaea;
+}
+body{
+    margin: auto;
+    background-color: var(--white);
+}
+header{
+    background-color: var(--bleu);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 8em;
+    border-bottom: 1px solid var(--white);
+    position: relative;
+}
+header img{
+    width: 8em;
+}
+header a{
+    text-decoration: none;
+    color: var(--white);
+}
+footer{
+    background-color: var(--bleu);
+}
